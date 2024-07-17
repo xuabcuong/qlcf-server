@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/index.js",
-    "InitDatabase": "sequelize-auto -o './models' -d qlcf_db -h 127.0.0.1 -u root -p  -x 123456"
+    "InitDatabase": "sequelize-auto -o './src/models' -d qlcf_db -h 127.0.0.1 -u root -p  -x 123456"
   },
   "keywords": [],
   "author": "",
